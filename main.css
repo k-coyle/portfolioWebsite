@@ -1,8 +1,67 @@
+/* CSS HEX
+--army-green: ;
+--antique-bronze: #646721ff;
+--dark-jungle-green: #111D0Fff;
+--maximum-green: #6D8941ff;
+--forest-green-traditional: #213E1Cff;
+--satin-sheen-gold: #C39839ff;
+*/
+
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #181818;
+    background-image: url('images/pexels-enric-cruz-lópez-6039237.jpg');
+    background-size: cover;
     color: rgb(221, 220, 220);
 }
+.navbar{
+    background-color: #384216ff;
+    padding: 0px;
+    color: #cfcfc9;
+}
+.navbar-brand{
+    font-size: 36px;
+    color: #cfcfc9;
+
+}
+.nav-item{
+    padding-right: 10px;
+}
+.nav-item:hover{
+    background-color: #111D0Fff !important;
+}
+.nav-link{
+    color: #cfcfc9;
+}
+.nav-link:hover{
+    background-color: #181712 !important;
+}
+.col-10{
+    background-color: #6D8941ff;
+    padding: 20px;
+    border-radius: 25px ;
+}
+.lead{
+    text-align: center; 
+}
+#frameworks{
+    text-align: center;
+}
+.btn{
+    border: #C39839ff;
+    background-color: #C39839ff;
+    font-size: 24px;
+}
+.btn:hover{
+    background-color: #111D0Fff !important;
+}
+
+
+
+#footer{
+    background-color: #384216ff;
+    color: #cfcfc9;
+}
+
 h1{
     text-align: center;
     font-family: 'Century Gothic';
@@ -12,17 +71,6 @@ h2{
     font-family: 'Century Gothic';
     font-size: 24pt;
 }
-
-nav{
-    background-color: rgb(241, 238, 238);
-}
-#navul{
-    list-style-type: none;
-    overflow: hidden;
-}
-.navli{
-    float: left;
-}
 a{
     color: #181818;
     text-decoration: none;
@@ -30,19 +78,11 @@ a{
     display: block;
 }
 
-a:hover{
-    color: darkgreen;
-    text-decoration: underline;
-    background-color: grey;
-}
+
 
 .smIcon{
     width: 60px;
 }
-
-.backgroundColor{
-    background-color: rgb(54, 54, 54);
-}/*this is a class, formatting used in multiple places*/
 
 #bioHeadshot{
     border: 4px solid white;
